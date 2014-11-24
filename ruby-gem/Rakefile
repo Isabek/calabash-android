@@ -27,6 +27,8 @@ def build
       "-Dandroid.api.level=19",
       "-Dversion=#{Calabash::Android::VERSION}",
     ]
+
+
     Dir.chdir(@test_server_dir) do
       STDOUT.sync = true
       IO.popen(args.join(" ")) do |io|

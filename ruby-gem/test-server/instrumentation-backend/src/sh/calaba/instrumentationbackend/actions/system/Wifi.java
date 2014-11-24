@@ -56,6 +56,6 @@ public class Wifi implements Action {
 
 	@Override
 	public String key() {
-		return "status_wifi";
+            return "status_wifi";
 	}
 }
